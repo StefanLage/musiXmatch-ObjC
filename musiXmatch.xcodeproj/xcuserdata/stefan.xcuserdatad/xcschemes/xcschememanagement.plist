@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>musiXmatch-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>musiXmatch-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F867A7551A7C2338009A8DA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F867A7601A7C2338009A8DA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F867A7761A7C2419009A8DA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F867A7801A7C2419009A8DA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F87A65B71A826A210058D3B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F87A65C81A826DC80058D3B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
