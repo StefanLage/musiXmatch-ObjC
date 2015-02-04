@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <RestKit/RestKit.h>
 
-@interface mXmJsonSerialization : NSObject
+@interface mXmJsonSerialization : NSObject <RKSerialization>
 
 @end

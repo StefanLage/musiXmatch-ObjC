@@ -10,4 +10,6 @@
 
 @interface mXmSearchArtist : NSObject
 
+@property (nonatomic, copy) NSArray * artists;
+
 @end

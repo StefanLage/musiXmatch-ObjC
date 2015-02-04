@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F867A7551A7C2338009A8DA5"
-               BuildableName = "musiXmatch_OSX.framework"
+               BuildableName = "musiXmatch.framework"
                BlueprintName = "musiXmatch-OSX"
                ReferencedContainer = "container:musiXmatch.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
       buildConfiguration = "Debug">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F867A7601A7C2338009A8DA5"
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F867A7551A7C2338009A8DA5"
-            BuildableName = "musiXmatch_OSX.framework"
+            BuildableName = "musiXmatch.framework"
             BlueprintName = "musiXmatch-OSX"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F867A7551A7C2338009A8DA5"
-            BuildableName = "musiXmatch_OSX.framework"
+            BuildableName = "musiXmatch.framework"
             BlueprintName = "musiXmatch-OSX"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F867A7551A7C2338009A8DA5"
-            BuildableName = "musiXmatch_OSX.framework"
+            BuildableName = "musiXmatch.framework"
             BlueprintName = "musiXmatch-OSX"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
          </BuildableReference>

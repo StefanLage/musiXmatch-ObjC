@@ -10,4 +10,10 @@
 
 @interface mXmLyrics : NSObject
 
+@property (nonatomic, copy) NSNumber * lyricsId;
+@property (nonatomic, copy) NSNumber * restricted;
+@property (nonatomic, copy) NSString * body;
+@property (nonatomic, copy) NSString * language;
+@property (nonatomic, copy) NSString * copyright;
+
 @end

@@ -10,4 +10,6 @@
 
 @interface mXmSearchTrack : NSObject
 
+@property (nonatomic, copy) NSArray * tracks;
+
 @end

@@ -6,8 +6,5 @@
 //  Copyright (c) 2015 Stefan Lage. All rights reserved.
 //
 
-#ifndef musiXmatch_Macros_h
-#define musiXmatch_Macros_h
-
-
-#endif
+#import "MappingKeys.h"
+#import "Uri.h"

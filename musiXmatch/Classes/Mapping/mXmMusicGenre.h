@@ -10,4 +10,9 @@
 
 @interface mXmMusicGenre : NSObject
 
+@property (nonatomic, copy) NSNumber * genreId;
+@property (nonatomic, copy) NSString * name;
+@property (nonatomic, copy) NSString * nameExtended;
+@property (nonatomic, copy) NSString * vanity;
+
 @end

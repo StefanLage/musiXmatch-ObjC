@@ -6,35 +6,50 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F8C19E7E1A8281FC000C70B5 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F8C19E7F1A8281FC000C70B5 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				F8C19E821A82820B000C70B5 /* ShellScript */,
+			);
+			dependencies = (
+				F8A9A4D71A828CC80088BD8C /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		72EB1BEC36942CE2D6D16C7A /* libPods-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCD9DA721D13E6DDE587AB1 /* libPods-Mac.a */; };
 		F838D66F1A7F8CE800F37792 /* mXmArtist.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D66D1A7F8CE800F37792 /* mXmArtist.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F838D6701A7F8CE800F37792 /* mXmArtist.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D66D1A7F8CE800F37792 /* mXmArtist.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F838D6711A7F8CE800F37792 /* mXmArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D66E1A7F8CE800F37792 /* mXmArtist.m */; };
 		F838D6721A7F8CE800F37792 /* mXmArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D66E1A7F8CE800F37792 /* mXmArtist.m */; };
-		F838D6751A7F8FC800F37792 /* mXmSearchArtist.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6731A7F8FC800F37792 /* mXmSearchArtist.h */; };
-		F838D6761A7F8FC800F37792 /* mXmSearchArtist.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6731A7F8FC800F37792 /* mXmSearchArtist.h */; };
+		F838D6751A7F8FC800F37792 /* mXmSearchArtist.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6731A7F8FC800F37792 /* mXmSearchArtist.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F838D6761A7F8FC800F37792 /* mXmSearchArtist.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6731A7F8FC800F37792 /* mXmSearchArtist.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F838D6771A7F8FC800F37792 /* mXmSearchArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D6741A7F8FC800F37792 /* mXmSearchArtist.m */; };
 		F838D6781A7F8FC800F37792 /* mXmSearchArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D6741A7F8FC800F37792 /* mXmSearchArtist.m */; };
 		F838D67C1A7F941700F37792 /* mXmAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D67A1A7F941700F37792 /* mXmAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F838D67D1A7F941700F37792 /* mXmAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D67A1A7F941700F37792 /* mXmAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F838D67E1A7F941700F37792 /* mXmAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D67B1A7F941700F37792 /* mXmAlbum.m */; };
 		F838D67F1A7F941700F37792 /* mXmAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D67B1A7F941700F37792 /* mXmAlbum.m */; };
-		F838D6821A7FCD8600F37792 /* mXmArtistAlbums.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6801A7FCD8600F37792 /* mXmArtistAlbums.h */; };
-		F838D6831A7FCD8600F37792 /* mXmArtistAlbums.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6801A7FCD8600F37792 /* mXmArtistAlbums.h */; };
+		F838D6821A7FCD8600F37792 /* mXmArtistAlbums.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6801A7FCD8600F37792 /* mXmArtistAlbums.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F838D6831A7FCD8600F37792 /* mXmArtistAlbums.h in Headers */ = {isa = PBXBuildFile; fileRef = F838D6801A7FCD8600F37792 /* mXmArtistAlbums.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F838D6841A7FCD8600F37792 /* mXmArtistAlbums.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D6811A7FCD8600F37792 /* mXmArtistAlbums.m */; };
 		F838D6851A7FCD8600F37792 /* mXmArtistAlbums.m in Sources */ = {isa = PBXBuildFile; fileRef = F838D6811A7FCD8600F37792 /* mXmArtistAlbums.m */; };
-		F867A7621A7C2338009A8DA5 /* musiXmatch_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867A7561A7C2338009A8DA5 /* musiXmatch_OSX.framework */; };
+		F867A7621A7C2338009A8DA5 /* musiXmatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867A7561A7C2338009A8DA5 /* musiXmatch.framework */; };
 		F867A7691A7C2338009A8DA5 /* musiXmatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F867A7681A7C2338009A8DA5 /* musiXmatchTests.m */; };
-		F867A7821A7C2419009A8DA5 /* musiXmatch_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867A7771A7C2419009A8DA5 /* musiXmatch_iOS.framework */; };
 		F87A617D1A7EC54A006C892A /* mXmLyrics.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A617B1A7EC54A006C892A /* mXmLyrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F87A617E1A7EC54A006C892A /* mXmLyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = F87A617C1A7EC54A006C892A /* mXmLyrics.m */; };
 		F87A617F1A7EC70C006C892A /* mXmLyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = F87A617C1A7EC54A006C892A /* mXmLyrics.m */; };
 		F87A61801A7EC70E006C892A /* mXmLyrics.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A617B1A7EC54A006C892A /* mXmLyrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F87A61831A7ECDAA006C892A /* mXmSearchTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A61811A7ECDAA006C892A /* mXmSearchTrack.h */; };
+		F87A61831A7ECDAA006C892A /* mXmSearchTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A61811A7ECDAA006C892A /* mXmSearchTrack.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F87A61841A7ECDAA006C892A /* mXmSearchTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A61811A7ECDAA006C892A /* mXmSearchTrack.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F87A61851A7ECDAA006C892A /* mXmSearchTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = F87A61821A7ECDAA006C892A /* mXmSearchTrack.m */; };
 		F87A61861A7ECDAA006C892A /* mXmSearchTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = F87A61821A7ECDAA006C892A /* mXmSearchTrack.m */; };
+		F8A9A4D81A828DEC0088BD8C /* musiXmatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867A7771A7C2419009A8DA5 /* musiXmatch.framework */; };
 		F8C1FC771A7C2B78002EAC72 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B826704F0AF1D77935BAD8 /* libPods.a */; };
 		F8C1FCB61A7C328C002EAC72 /* mXmTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C1FCB41A7C328C002EAC72 /* mXmTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8C1FCB71A7C328C002EAC72 /* mXmTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C1FCB51A7C328C002EAC72 /* mXmTrack.m */; };
@@ -80,6 +95,13 @@
 			remoteGlobalIDString = F867A7761A7C2419009A8DA5;
 			remoteInfo = musiXmatch;
 		};
+		F8A9A4D61A828CC80088BD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F867A74D1A7C2338009A8DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F867A7761A7C2419009A8DA5;
+			remoteInfo = "musiXmatch-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -95,18 +117,22 @@
 		F838D67B1A7F941700F37792 /* mXmAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mXmAlbum.m; path = Classes/Mapping/mXmAlbum.m; sourceTree = "<group>"; };
 		F838D6801A7FCD8600F37792 /* mXmArtistAlbums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mXmArtistAlbums.h; path = Classes/Mapping/mXmArtistAlbums.h; sourceTree = "<group>"; };
 		F838D6811A7FCD8600F37792 /* mXmArtistAlbums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mXmArtistAlbums.m; path = Classes/Mapping/mXmArtistAlbums.m; sourceTree = "<group>"; };
-		F867A7561A7C2338009A8DA5 /* musiXmatch_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = musiXmatch_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F867A7561A7C2338009A8DA5 /* musiXmatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = musiXmatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F867A75A1A7C2338009A8DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F867A75B1A7C2338009A8DA5 /* musiXmatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = musiXmatch.h; sourceTree = "<group>"; };
 		F867A7611A7C2338009A8DA5 /* musiXmatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musiXmatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F867A7671A7C2338009A8DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F867A7681A7C2338009A8DA5 /* musiXmatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musiXmatchTests.m; sourceTree = "<group>"; };
-		F867A7771A7C2419009A8DA5 /* musiXmatch_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = musiXmatch_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F867A7771A7C2419009A8DA5 /* musiXmatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = musiXmatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F867A7811A7C2419009A8DA5 /* musiXmatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musiXmatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87A617B1A7EC54A006C892A /* mXmLyrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mXmLyrics.h; path = Classes/Mapping/mXmLyrics.h; sourceTree = "<group>"; };
 		F87A617C1A7EC54A006C892A /* mXmLyrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mXmLyrics.m; path = Classes/Mapping/mXmLyrics.m; sourceTree = "<group>"; };
 		F87A61811A7ECDAA006C892A /* mXmSearchTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mXmSearchTrack.h; path = Classes/Mapping/mXmSearchTrack.h; sourceTree = "<group>"; };
 		F87A61821A7ECDAA006C892A /* mXmSearchTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mXmSearchTrack.m; path = Classes/Mapping/mXmSearchTrack.m; sourceTree = "<group>"; };
+		F8A9A4D91A82BBE60088BD8C /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Release-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		F8A9A4DB1A82BBEC0088BD8C /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
+		F8A9A4DD1A82BBEF0088BD8C /* libPods-SOCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SOCKit.a"; path = "Pods/build/Release-iphoneos/libPods-SOCKit.a"; sourceTree = "<group>"; };
+		F8A9A4DF1A82BBF40088BD8C /* libPods-TransitionKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TransitionKit.a"; path = "Pods/build/Release-iphoneos/libPods-TransitionKit.a"; sourceTree = "<group>"; };
 		F8C1FC721A7C27A8002EAC72 /* musiXmatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "musiXmatch-Prefix.pch"; sourceTree = "<group>"; };
 		F8C1FC731A7C2B4C002EAC72 /* Pods-Mac.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mac/Pods-Mac.debug.xcconfig"; sourceTree = "<group>"; };
 		F8C1FC741A7C2B4C002EAC72 /* Pods-Mac.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mac/Pods-Mac.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F867A7621A7C2338009A8DA5 /* musiXmatch_OSX.framework in Frameworks */,
+				F867A7621A7C2338009A8DA5 /* musiXmatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F867A7821A7C2419009A8DA5 /* musiXmatch_iOS.framework in Frameworks */,
+				F8A9A4D81A828DEC0088BD8C /* musiXmatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +199,10 @@
 		93319C31A5610BCEED2AC2FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8A9A4DF1A82BBF40088BD8C /* libPods-TransitionKit.a */,
+				F8A9A4DD1A82BBEF0088BD8C /* libPods-SOCKit.a */,
+				F8A9A4DB1A82BBEC0088BD8C /* libPods-RestKit.a */,
+				F8A9A4D91A82BBE60088BD8C /* libPods-AFNetworking.a */,
 				23B826704F0AF1D77935BAD8 /* libPods.a */,
 				8DCD9DA721D13E6DDE587AB1 /* libPods-Mac.a */,
 			);
@@ -215,9 +245,9 @@
 		F867A7571A7C2338009A8DA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F867A7561A7C2338009A8DA5 /* musiXmatch_OSX.framework */,
+				F867A7561A7C2338009A8DA5 /* musiXmatch.framework */,
 				F867A7611A7C2338009A8DA5 /* musiXmatchTests.xctest */,
-				F867A7771A7C2419009A8DA5 /* musiXmatch_iOS.framework */,
+				F867A7771A7C2419009A8DA5 /* musiXmatch.framework */,
 				F867A7811A7C2419009A8DA5 /* musiXmatchTests.xctest */,
 			);
 			name = Products;
@@ -398,7 +428,7 @@
 			);
 			name = "musiXmatch-OSX";
 			productName = musiXmatch;
-			productReference = F867A7561A7C2338009A8DA5 /* musiXmatch_OSX.framework */;
+			productReference = F867A7561A7C2338009A8DA5 /* musiXmatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F867A7601A7C2338009A8DA5 /* musiXmatchTests */ = {
@@ -429,6 +459,7 @@
 				F867A7751A7C2419009A8DA5 /* Resources */,
 				F8C1FD121A7C3F36002EAC72 /* Check Pods Manifest.lock */,
 				F8C1FD131A7C3F70002EAC72 /* Copy Pods Resources */,
+				F8A9A4D51A828BF90088BD8C /* Build Framework */,
 			);
 			buildRules = (
 			);
@@ -436,7 +467,7 @@
 			);
 			name = "musiXmatch-iOS";
 			productName = musiXmatch;
-			productReference = F867A7771A7C2419009A8DA5 /* musiXmatch_iOS.framework */;
+			productReference = F867A7771A7C2419009A8DA5 /* musiXmatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F867A7801A7C2419009A8DA5 /* musiXmatchTests */ = {
@@ -478,6 +509,9 @@
 					F867A7801A7C2419009A8DA5 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
+					F8C19E7E1A8281FC000C70B5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 				};
 			};
 			buildConfigurationList = F867A7501A7C2338009A8DA5 /* Build configuration list for PBXProject "musiXmatch" */;
@@ -496,6 +530,7 @@
 				F867A7601A7C2338009A8DA5 /* musiXmatchTests */,
 				F867A7761A7C2419009A8DA5 /* musiXmatch-iOS */,
 				F867A7801A7C2419009A8DA5 /* musiXmatchTests */,
+				F8C19E7E1A8281FC000C70B5 /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -561,6 +596,33 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mac/Pods-Mac-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		F8A9A4D51A828BF90088BD8C /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		F8C19E821A82820B000C70B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Build the other platform.\n#xcrun xcodebuild ONLY_ACTIVE_ARCH=NO -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" -scheme \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\n#cp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\nopen \"${PROJECT_DIR}\"";
 		};
 		F8C1FD121A7C3F36002EAC72 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -657,6 +719,11 @@
 			isa = PBXTargetDependency;
 			target = F867A7761A7C2419009A8DA5 /* musiXmatch-iOS */;
 			targetProxy = F867A7831A7C2419009A8DA5 /* PBXContainerItemProxy */;
+		};
+		F8A9A4D71A828CC80088BD8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F867A7761A7C2419009A8DA5 /* musiXmatch-iOS */;
+			targetProxy = F8A9A4D61A828CC80088BD8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -757,7 +824,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = musiXmatch_OSX;
+				PRODUCT_NAME = musiXmatch;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = debugging;
@@ -781,7 +848,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = musiXmatch_OSX;
+				PRODUCT_NAME = musiXmatch;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = debugging;
@@ -791,6 +858,7 @@
 		F867A7701A7C2338009A8DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -809,6 +877,7 @@
 		F867A7711A7C2338009A8DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -838,12 +907,37 @@
 				INFOPLIST_FILE = musiXmatch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = musiXmatch_iOS;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Release-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-RestKit\"",
+					"-l\"Pods-SOCKit\"",
+					"-l\"Pods-TransitionKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_NAME = musiXmatch;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				STRIP_STYLE = debugging;
+				STRIP_STYLE = "non-global";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -853,7 +947,7 @@
 			baseConfigurationReference = 22C6228ED6BCFF347CF1AF7A /* Pods.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -863,12 +957,37 @@
 				INFOPLIST_FILE = musiXmatch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = musiXmatch_iOS;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Release-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-RestKit\"",
+					"-l\"Pods-SOCKit\"",
+					"-l\"Pods-TransitionKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_NAME = musiXmatch;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				STRIP_STYLE = debugging;
+				STRIP_STYLE = "non-global";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -877,6 +996,7 @@
 		F867A78E1A7C2419009A8DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -897,6 +1017,7 @@
 		F867A78F1A7C2419009A8DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -907,6 +1028,25 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C19E801A8281FC000C70B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		F8C19E811A8281FC000C70B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -954,6 +1094,15 @@
 			buildConfigurations = (
 				F867A78E1A7C2419009A8DA5 /* Debug */,
 				F867A78F1A7C2419009A8DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C19E7F1A8281FC000C70B5 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C19E801A8281FC000C70B5 /* Debug */,
+				F8C19E811A8281FC000C70B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

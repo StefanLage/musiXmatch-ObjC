@@ -15,17 +15,17 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F867A7761A7C2419009A8DA5"
-               BuildableName = "musiXmatch_iOS.framework"
+               BuildableName = "musiXmatch.framework"
                BlueprintName = "musiXmatch-iOS"
                ReferencedContainer = "container:musiXmatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F867A7801A7C2419009A8DA5"
@@ -43,7 +43,7 @@
       buildConfiguration = "Debug">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F867A7801A7C2419009A8DA5"
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F867A7761A7C2419009A8DA5"
-            BuildableName = "musiXmatch_iOS.framework"
+            BuildableName = "musiXmatch.framework"
             BlueprintName = "musiXmatch-iOS"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F867A7761A7C2419009A8DA5"
-            BuildableName = "musiXmatch_iOS.framework"
+            BuildableName = "musiXmatch.framework"
             BlueprintName = "musiXmatch-iOS"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F867A7761A7C2419009A8DA5"
-            BuildableName = "musiXmatch_iOS.framework"
+            BuildableName = "musiXmatch.framework"
             BlueprintName = "musiXmatch-iOS"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
          </BuildableReference>

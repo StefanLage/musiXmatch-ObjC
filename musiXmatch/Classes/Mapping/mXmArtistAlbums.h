@@ -10,4 +10,6 @@
 
 @interface mXmArtistAlbums : NSObject
 
+@property (nonatomic, copy) NSArray * albums;
+
 @end

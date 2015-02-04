@@ -8,6 +8,19 @@
 
 #import "mXmLyrics.h"
 
+@interface mXmLyrics()<NSCopying>
+
+@end
+
 @implementation mXmLyrics
+
+- (id)copyWithZone:(NSZone *)zone {
+    mXmLyrics *newLyrics = [mXmLyrics new];
+    [newLyrics setLyricsId:self.lyricsId];
+    [newLyrics setBody:self.body];
+    [newLyrics setRestricted:self.restricted];
+    [newLyrics setLanguage:self.language];
+    return newLyrics;
+}
 
 @end

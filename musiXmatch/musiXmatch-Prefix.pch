@@ -1,0 +1,14 @@
+//
+//  musiXmatch-Prefix.pch
+//  musiXmatch
+//
+//  Created by Stefan Lage on 30/01/15.
+//  Copyright (c) 2015 Stefan Lage. All rights reserved.
+//
+
+#ifndef musiXmatch_musiXmatch_Prefix_pch
+#define musiXmatch_musiXmatch_Prefix_pch
+
+#import <Foundation/Foundation.h>
+
+#endif

@@ -10,4 +10,10 @@
 
 @interface mXmArtist : NSObject
 
+@property (nonatomic, copy) NSNumber * artistId;
+@property (nonatomic, copy) NSString * name;
+@property (nonatomic, copy) NSString * country;
+@property (nonatomic, copy) NSNumber * rating;
+@property (nonatomic, copy) NSArray  * alias;
+
 @end

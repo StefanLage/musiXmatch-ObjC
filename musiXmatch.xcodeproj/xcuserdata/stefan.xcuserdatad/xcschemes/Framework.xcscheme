@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F87A65C81A826DC80058D3B2"
+               BlueprintIdentifier = "F8C19E7E1A8281FC000C70B5"
                BuildableName = "Framework"
                BlueprintName = "Framework"
                ReferencedContainer = "container:musiXmatch.xcodeproj">
@@ -35,14 +35,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F87A65C81A826DC80058D3B2"
+            BlueprintIdentifier = "F8C19E7E1A8281FC000C70B5"
             BuildableName = "Framework"
             BlueprintName = "Framework"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
@@ -60,7 +60,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F87A65C81A826DC80058D3B2"
+            BlueprintIdentifier = "F8C19E7E1A8281FC000C70B5"
             BuildableName = "Framework"
             BlueprintName = "Framework"
             ReferencedContainer = "container:musiXmatch.xcodeproj">
